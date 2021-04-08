@@ -3,13 +3,14 @@
     <head>
         <title>RayYang - IS183 Midterm</title>
         <link rel="stylesheet" href="./css/styles.css"
+       
     </head>
 
     <body class="main-container-grid">
         <div class="r1 box-shadow">
             <img src="./img/sm_logo.jpg">
         </div>
-        <div class="r2 three-column">
+        <div class="r2 two-column">
             <div class="c1">
                 <h2 class="txt-center">Navigation</h2>
                 <ul class="left-nav">
@@ -20,24 +21,22 @@
                     <li><a href="./login.html">Login</a></li>
                 </ul>
             </div>
-            <div class="c2-index">
-               <h2 class="txt-center h2-content">Gallery</h2>
-                    <img class="box-shadow" src="./img/image_1.jpeg">
-                    <img class="box-shadow" src="./img/image_2.jpeg">
-                    <img class="box-shadow" src="./img/image_3.jpeg">
-                    <img class="box-shadow" src="./img/image_4.jpeg">
-                    <img class="box-shadow" src="./img/image_5.jpeg">
-                    <img class="box-shadow" src="./img/image_6.jpg">
-
-            </div>
-            <div class="c3">
-                <h2 class="txt-center">Recent product</h2>
+            <div class="c2-contact">
+                <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <input placeholder="First Name" type="text" id="first-name" class="contact-input">
+                    <input placeholder="Last Name" type="text" id="last-name" class="contact-input">
+                    <input placeholder="Email" type="email" id="email" class="contact-input">
+                    <button onClick="contact.goToHome()" class="submit-button" type="button">Submit</button>
+                </form>
             </div>
         </div>
        
        
         <div class="r3">
-            For Educational purpose only! No orders shall be fulfilled.
+            For educational purpose only! No orders shall be fulfilled.
         </div>
+
+    <script type="text/javascript" src="./js/contact.js"></script>
     </body>
 </html>
